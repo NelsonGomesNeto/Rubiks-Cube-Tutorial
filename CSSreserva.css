@@ -1,0 +1,40 @@
+h1
+{
+    color: aqua;
+    font-family: fantasy;
+    font-size: 5em;
+    text-align: center;
+    margin: auto;
+}
+div
+{
+    margin: auto;
+    text-align: center;
+    max-width: 500px;
+    max-height: 400px;
+    padding: 25px 25px 25px 25px;
+    border: solid 2px blue;
+    border-radius: 25px;
+}
+.box
+{
+    text-align: center;
+    font-size: 30px;
+    font-family: Arial;
+    color: darkblue;
+    border-radius: 20px;
+    width: 500px;
+    height: 75px;
+}
+.values
+{
+    color: red;
+    font-family: Arial;
+    margin: auto;
+}
+img
+{
+    margin: auto;
+    max-height: 200px;
+    max-width: 100px;
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <link rel="stylesheet" type="text/css" href="rubik.css" />
+        <script type="text/javascript" src="script.js"></script>
+        <meta http-equiv="content-type" content="text/html;charset=utf-8" />
+        <title>Montando o Rubik's Cube</title>
+    </head>
+
+    <body>
+        <center><div>
+            <h1 ID="tit">Montando o Rubik's Cube</h1>
+            <div ID="Movimentos">
+                <h2>0 - Os Movimentos</h2>
+                <h2>Esses são os movimentos básicos</h2>
+                <center><table>
+                    <td rowspan="9">
+                        <img src="Pictures/Movimentos/Movimentos.jpg" ID="foto"/>
+                    </td>
+                    <tr onmouseover="change('Pictures/Movimentos/Right.jpg')" onmouseout="volta()"><td><a ID="Movimentos">R - Right - Gira o lado <b><u>direito</u></b> no sentido <b><u>horário</u></b></a></td></tr>
+                    <tr onmouseover="change('Pictures/Movimentos/Left.jpg')" onmouseout="volta()"><td><a ID="Movimentos">L - Left - Gira o lado <b><u>esquerdo</u></b> no sentido <b><u>horário</u></b></a></td></tr>
+                    <tr onmouseover="change('Pictures/Movimentos/Up.jpg')" onmouseout="volta()"><td><a ID="Movimentos">U - Up - Gira o <b><u>topo</u></b> no sentido <b><u>horário</u></b></a></td></tr>
+                    <tr onmouseover="change('Pictures/Movimentos/Face.jpg')" onmouseout="volta()"><td><a ID="Movimentos">F - Face - Gira a <b><u>face</u></b> no sentido <b><u>horário</u></b></a></td></tr>
+                    <tr onmouseover="change('Pictures/Movimentos/Down.jpg')" onmouseout="volta()"><td><a ID="Movimentos">D - Down - Gira a <b><u>base</u></b> no sentido <b><u>horário</u></b></a></td></tr>
+                    <tr onmouseover="change('Pictures/Movimentos/Back.jpg')" onmouseout="volta()"><td><a ID="Movimentos">B - Back - Gira as <b><u>costas</u></b> no sentido <b><u>horário</u></b></a></td></tr>
+                    <tr><td><a ID="Movimentos">' - Anti - <b><u>Troca</u></b> de horário para <b><u>anti-horário</u></b></a></td></tr>
+                    <tr><td><a ID="Movimentos">2 - Double - Faz o movimento <b><u>duas</u></b> vezes</a></td></tr>
+                </table></center>
+            </div>
+            <center><table>
+                <td><a href="index.html"><h1><b><u>Info</u></b></h1></a></td>
+                <td><a>----||||----</a></td>
+                <td><a href="rubikBase.html"><h1><b><u>Base</u></b></h1></a></td>
+            </table></center>
+        </div></center>
+    </body>
+</html>

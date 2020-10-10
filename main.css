@@ -1,0 +1,44 @@
+h1
+{
+    color: lightgrey;
+    font-family: fantasy;
+    font-size: 7em;
+    text-shadow: 5px 5px black;
+    text-align: center;
+    margin: auto;
+}
+div
+{
+    z-index: 2;
+    margin: auto;
+    text-align: center;
+    max-width: 1250px;
+    max-height: 700px;
+    padding: 25px 25px 25px 25px;
+    border: solid 2px blue;
+    border-radius: 25px;
+}
+img
+{
+    margin: auto;
+    height: 300px;
+    width: 400px;
+    border-radius: 25px;
+}
+body
+{
+    background-image: url(Pictures/Anime/output_jTVrBR.gif);
+    background-repeat: repeat;
+    background-size: contain;
+}
+/*#back1
+{
+    width: 50%;
+    height: 280px;
+    max-height: none;
+    max-width: none;
+    position: relative;
+    background-image: url("Pictures/Anime/gif1.gif");
+    background-size: contain;
+    z-index: -1;
+}*/

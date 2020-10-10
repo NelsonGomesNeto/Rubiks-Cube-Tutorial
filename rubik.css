@@ -1,0 +1,89 @@
+#main img
+{
+    position: absolute;
+    left: 80px;
+    max-height: 400px;
+    max-width: 210px;
+    padding: 0px 0px 0px 0px;
+    margin: auto;
+}
+h1
+{
+    color: blue;
+    text-shadow: 2px 2px green;
+    font-family: fantasy;
+    font-size: 5em;
+    text-align: center;
+    margin: auto;
+    display: ;
+}
+h2
+{
+    font-size: 40px;
+    text-shadow: 2px 2px cyan;
+}
+div
+{
+    margin: auto;
+    text-align: center;
+    padding: 25px 25px 25px 25px;
+    border: solid 2px blue;
+    border-radius: 25px;
+}
+#four
+{
+    padding: 25px 25px 25px 0px;
+}
+img
+{
+    margin: auto;
+    border-radius: 25px;
+    max-height: 350px;
+    max-width: 275px;
+}
+#Info img
+{
+    max-height: 300px;
+    max-width: 235px;
+}
+ol
+{
+    margin: auto;
+    text-align: center;
+    list-style-position: inside;
+}
+li
+{
+    font-size: 30px;
+    position: relative;
+}
+a
+{
+    font-size: 30px;
+    left: 30px;
+    text-shadow: 2px 2px white;
+}
+td
+{
+    margin: auto;
+    align-content: center;
+    text-shadow: 2px 2px white;
+}
+#Movimentos
+{
+    margin: auto;
+    max-width: none;
+}
+#Movimentos img
+{
+    margin: auto;
+    align-self: auto;
+    max-height: 1000px;
+    height: inherit;
+    max-width: 750px;
+}
+#Movimentos a
+{
+    float: left;
+    height: inherit;
+}

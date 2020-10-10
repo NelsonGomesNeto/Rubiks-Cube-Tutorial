@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <link rel="stylesheet" type="text/css" href="rubik.css" />
+        <script type="text/javascript" src="script.js"></script>
+        <meta http-equiv="content-type" content="text/html;charset=utf-8" />
+        <title>Montando o Rubik's Cube</title>
+    </head>
+
+    <body>
+        <center><div>
+            <h1 ID="tit">Montando o Rubik's Cube</h1>
+            <tr>
+                <div>
+                    <h2>1 - A Cruz</h2>
+                    <h2><b><u>Não se preocupe com a quinas, apenas com a peças da cruz</u></b></h2>
+                    <ol>
+                        <li><a>Escolha uma cor, qualquer uma; ela será sua base</a></li>
+                        <li><a>Agora, faça uma cruz na cor que você escolheu:</a></li>
+                        <img src="Pictures/Base/Cruz.jpg" />
+                    </ol>
+                </div>
+            </tr>
+            <tr>
+                <div>
+                    <h2>2 - Alinhamento da Cruz</h2>
+                    <h2><b><u>Não se preocupe com a quinas, apenas com as peças da cruz</u></b></h2>
+                    <ol>
+                        <li><a>Analise o alinhamento da cruz para com os outros centros, tudo deve estar devidamete alinhado; Gire o topo até achar a <u>maior</u> quantidade de alinhamentos possível</a></li>
+                        <!--<img src="Pictures/Base/AlinhamentoDaCruzBot/WP_20160812_12_29_14_Pro_LI.jpg" />
+                        <img src="Pictures/Base/AlinhamentoDaCruzBot/WP_20160812_12_29_32_Pro_LI.jpg" />
+                        <img src="Pictures/Base/AlinhamentoDaCruzBot/WP_20160812_12_29_43_Pro_LI.jpg" />
+                        <img src="Pictures/Base/AlinhamentoDaCruzBot/WP_20160812_12_29_59_Pro_LI.jpg" />
+                        <br><a>Note que duas cores vizinhas não estão alinhadas, você vai precisar trocar suas posições:</a>-->
+                        <li><a>Alinhamento Vizinho: <b><u>R' U' R U R'</u></b></a></li>
+                        <center><table>
+                            <td><img src="Pictures/Base/AlinhamentoDaCruzBot/Vizinhas/From.jpg" /></td>
+                            <td><h1>-></h1></td>
+                            <td><img src="Pictures/Base/AlinhamentoDaCruzBot/Vizinhas/To.jpg" /></td>
+                        </table></center>
+                        <br><a>Caso duas cores opostas não estejam alinhadas, você vai precisar trocar suas posições</a>
+                        <li><a>Alinhamento Oposto: <b><u>R' U2 R U2 R'</u></b></a></li>
+                        <center><table>
+                            <td><img src="Pictures/Base/AlinhamentoDaCruzBot/Opostas/From.jpg" /></td>
+                            <td><h1>-></h1></td>
+                            <td><img src="Pictures/Base/AlinhamentoDaCruzBot/Opostas/To.jpg" /></td>
+                        </table></center>
+                    </ol>
+                </div>
+            </tr>
+            <tr>
+                <div>
+                    <h2>3 - Colocando as quinas</h2>
+                    <ol>
+                        <li><a>Procure uma quina, repare nas três cores; ela deve ser encaixada o mais próximo possível dos centros daquelas três cores</a></li>
+                        <li><a><b><u>Deixe-a do lado direito de onde ela deve encaixar</u></b></a></li>
+                        <li><a>Subir Quina: <b><u>R' D' R D</u></b></a></li>
+                        <center><table>
+                            <td><img src="Pictures/Base/SubirQuina/From.jpg" /></td>
+                            <td><h1>-></h1></td>
+                            <td><img src="Pictures/Base/SubirQuina/To.jpg" /></td>
+                        </table></center>
+                        <br><a><u>Obs: Dependendo da orientação da quina, é possível que você tenha de executar o movimento mais de uma vez; execute até a quina ficar no lugar correto (Isso pode levar no máximo 7 movimentos)</u></a>
+                        <li><a><b><u>Faça o mesmo em todas as outras quinas</u></b></a></li>
+                        <a><b><u>Resultado:</u></b></a>
+                        <br>
+                        <img src="Pictures/Base/Base.jpg" />
+                    </ol>
+                </div>
+            </tr>
+            <center><table>
+                <td><a href="rubikMovimentos.html"><h1><b><u>Movimentos</u></b></h1></a></td>
+                <td><a>----||||----</a></td>
+                <td><a href="rubikMeio.html"><h1><b><u>Meio</u></b></h1></a></td>
+            </table></center>
+        </div></center>
+    </body>
+</html>
