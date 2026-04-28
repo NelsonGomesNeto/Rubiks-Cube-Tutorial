@@ -1,5 +1,4 @@
-h1
-{
+h1 {
     color: lightgrey;
     font-family: fantasy;
     font-size: 7em;
@@ -7,8 +6,8 @@ h1
     text-align: center;
     margin: auto;
 }
-div
-{
+
+div {
     z-index: 2;
     margin: auto;
     text-align: center;
@@ -18,19 +17,20 @@ div
     border: solid 2px blue;
     border-radius: 25px;
 }
-img
-{
+
+img {
     margin: auto;
     height: 300px;
     width: 400px;
     border-radius: 25px;
 }
-body
-{
+
+body {
     background-image: url(Pictures/Anime/output_jTVrBR.gif);
     background-repeat: repeat;
     background-size: contain;
 }
+
 /*#back1
 {
     width: 50%;
